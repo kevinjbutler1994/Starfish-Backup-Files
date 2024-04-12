@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  background-color: #a2cbb6;
+
+}
+.sidebar {
+  border: 1px black solid;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; /* default */
+  justify-content: flex-start; /* default */
+  align-items: left; /* center vertically (cross-axis) */
+  height: 40rem;
+  background-color: #a2cbb6;
+}   
+
+.TopBox1{  
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: auto; /* default */
+  align-items: center; /* center vertically (cross-axis) */
+    height: 10rem;
+    background-color: #a2cbb6;
+}   
+
+.TopBox2 {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: auto; /* default */
+  align-items: center; /* center vertically (cross-axis) */
+    height: 10rem;
+    background-color: #a2cbb6;
+}   
+
+.TopBox3 {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: auto; /* default */
+  align-items: center; /* center vertically (cross-axis) */
+    height: 10rem;
+    background-color: #a2cbb6;
+}   
+
+.BottomBox {
+  border: 1px black solid;  
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: flex-start; /* default */
+  align-items: center; /* center vertically (cross-axis) */
+    height: 20rem;
+    background-color: #a2cbb6;
+}   

@@ -1,0 +1,74 @@
+tml {
+    box-sizing: border-box
+  }
+  
+  /* The Universal Selector */
+  
+  *, /* All elements*/
+  *::before, /* All ::before pseudo-elements */
+  *::after { /* All ::after pseudo-elements */
+    /* height & width will now include border & padding by default
+      but can be over-ridden as needed */
+    box-sizing: inherit;
+  }
+  
+  heading {
+    grid-area: heading;
+    background-color: rgba(230, 233, 230, 0.849);
+  }
+  rating {
+    grid-area: rating;
+    background-color: rgba(157, 161, 157, 0.897);
+  }
+  pricing {
+    grid-area: pricing;
+    background-color: rgba(196, 196, 196, 0.829);
+  }
+  phone{
+    grid-area: phone;
+    background-color: green;
+  }
+  message {
+    grid-area: message;
+    background-color: green;
+  }
+   
+  #imageOne{
+    border-radius: 200px;
+    border: 5px solid green;
+  }
+  
+  #two{font-size: 20px}
+  #pricing {font-size: 20px}
+  #morePricing {font-size: 20px}
+  
+  
+      body {
+        width: 200px;
+        height: 400px; 
+        background-color: rgb(234, 240, 234);
+         display: grid;
+         font-family: sans-serif;
+         font-size: 24px;
+         margin: 0;
+         padding: 50px 200px 50px 200px;
+         min-height: 40vh;
+         text-align: center;
+  
+         grid-template-areas: 
+         "heading heading"
+         "rating rating"
+         "pricing pricing"
+         "phone message";
+       }
+  
+  
+  
+    /* .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    } */
+  
+  

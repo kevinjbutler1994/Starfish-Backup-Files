@@ -1,0 +1,130 @@
+header {
+  margin-top: 3pm;
+  margin-right: 3pm;
+  margin-bottom: 3pm;
+  margin-left: 3pm;
+  background-color: rgb(187, 117, 24);
+  font-size: 6rem;
+  font-family: 'Times New Roman', Times, serif;
+  border: solid #fcfafaf3;
+  /* box-shadow: 0 0 100px 10px rgba(34, 31, 31, 0); */
+  color: rgb(255, 251, 251)
+}
+
+body {
+  background-color: rgb(34, 119, 8);
+
+background-image: url("https://i.imgur.com/04eXNmb.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+/* 
+@media (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 750px) {
+  body {
+    background-color: rgb(235, 34, 34);
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+    body {
+      background-color: rgb(51, 235, 34);
+      font-size: 40px;
+    }
+}; */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 10px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+  --color: #166e67;
+  --gap: 4rem;
+  --radius: 5px;
+}
+
+body {
+  margin: 2rem;
+  text-align: center;
+  background-color: #1c4b06;
+  font-size: 2rem;
+}
+
+/* 
+/////////////////////////////////////////////////////////// */
+.modal {
+  z-index: 1;
+  position: fixed;
+  height: 700px;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -500px;
+  display: flex;
+  background-color: rgba(139, 81, 5, .85);
+  border: solid #fffcfc;
+  box-shadow: 0 0 100px 50px #000000;
+  color: rgb(255, 251, 251)
+
+}
+
+
+.close {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+}
+
+
+.desc {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+
+.desc * {
+  color: #FFFFFF;
+  font-family: Helvetica;
+}
+
+.desc-date {
+  font-weight: bold;
+}
+
+.desc-text {
+  height: auto;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+/* //////////////////////////////// */
+
+.team-buttons > img {
+  height: 380px;
+  width: 380px;
+  cursor: pointer;
+  border: solid #fcfafaf3;
+  box-shadow: 0 0 100px 10px rgb(34, 31, 31);
+  color: rgb(255, 251, 251)
+}
+
+

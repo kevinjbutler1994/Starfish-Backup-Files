@@ -1,0 +1,15 @@
+{
+  "name": "mongoose-modeling-practice",
+  "version": "1.0.0",
+  "description": "Now that's you've learned about non-relational databases and how to structure them with schemas, let's practice looking at actual data sets and creating a structure based on the documents inside of them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.2.0"
+  }
+}

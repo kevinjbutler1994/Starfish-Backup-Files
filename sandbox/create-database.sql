@@ -1,0 +1,6 @@
+CREATE DATABASE aoe2;
+
+CREATE USER aoe2_admin WITH PASSWORD 'password';
+
+GRANT ALL PRIVILEGES ON DATABASE ga TO aoe2_admin;
+

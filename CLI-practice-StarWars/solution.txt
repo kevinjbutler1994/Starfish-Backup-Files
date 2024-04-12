@@ -1,0 +1,69 @@
+REMINDER: Run all commands starting from the `star_wars` directory you created.
+
+Part I: Set the Scene
+
+1. (example: #1 completed for you)
+mkdir death_star 
+touch darth_vader.txt princess_leia storm_trooper.txt
+
+2.
+3.
+4.
+
+---------------------------------------------------------
+
+Part II: `mv` - rename
+
+1.
+
+---------------------------------------------------------
+
+Part III: `cp` - copy
+
+1.
+
+---------------------------------------------------------
+
+Part IV: `mv` - move
+
+1.
+2.
+3.
+4.
+
+---------------------------------------------------------
+
+Part V: `rm` - remove
+
+1.
+
+
+---------------------------------------------------------
+
+Part VI: All together
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+
+
+---------------------------------------------------------
+
+## Part VII: `rm -r`: Remove directories and everything they contain
+
+1.
+
+---------------------------------------------------------
+
+## Part VIII: May the Force Be With You..
+
+1.
+2.
+3.
+

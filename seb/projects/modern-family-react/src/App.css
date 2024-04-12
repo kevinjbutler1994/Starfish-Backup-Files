@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.Home {text-align: center;
+font-size: 60rem;}
+
+.characters-container {
+  display: -moz-deck;
+  gap: 20px;
+img{
+  width: 70px;
+  height: 90px;
+  }
+}
+
+.quotes-container {
+  display: grid;
+  text-align: left;
+  text-overflow:inherit;
+}
+
+.seasons-container {
+  font-size: 2rem;
+}
+
+.pics{
+  width: 70px;
+  height: 90px;
+  flex-wrap: wrap;
+}
+

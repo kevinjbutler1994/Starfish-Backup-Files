@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  flex-wrap: wrap;
+  background-color: #a2cbb6;
+}
+nav > div {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #f3dba8;
+}
+
+nav > div:last-child {
+    margin-left: auto;}

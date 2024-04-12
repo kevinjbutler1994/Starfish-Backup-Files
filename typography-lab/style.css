@@ -1,0 +1,44 @@
+/* Add your CSS here! */
+
+img {
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+  width: 33%;
+}
+
+body {
+  background-color: rgb(37, 37, 119);
+}
+h1 {
+  text-align: center;
+  color: rgb(248, 219, 165);
+  font-family: Georgie, sans-serif;
+}
+#one {
+  text-align: left;
+  color: rgb(0, 17, 255);
+}
+#two {
+  text-align: left;
+  color: rgba(255, 136, 0, 0.822);
+}
+#three {
+  text-align: center;
+  color: rgb(248, 219, 165);
+  font-size: 40px;
+}
+h3 {
+  text-align: left;
+  color: rgb(248, 219, 165);
+}
+ul {
+  text-align: left;
+  color: rgb(248, 219, 165);
+}
+
+a {
+  color: orange;
+  font-style: italic;
+  text-decoration: none;
+}

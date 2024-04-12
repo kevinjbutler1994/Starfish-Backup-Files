@@ -1,0 +1,14 @@
+.eventPageContainer {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eventPageImage {
+    height: 40vh;
+    width: 100vw;
+}
+.eventPageLink {
+}

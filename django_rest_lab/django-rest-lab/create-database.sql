@@ -1,0 +1,6 @@
+CREATE DATABASE book;
+
+CREATE USER book_admin WITH PASSWORD 'password';
+
+GRANT ALL PRIVILEGES ON DATABASE ga TO book_admin;
+
